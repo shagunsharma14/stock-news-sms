@@ -53,7 +53,17 @@ The script performs the following steps:
 
 You will receive news alerts on your phone whenever the stock price of the specified company changes significantly.
 
-Note: Make sure you have an active internet connection for the script to work correctly.
+## Use Case: Monitoring Stock News
+
+This script is useful for individuals who want to stay updated with the stock market and receive news alerts regarding specific companies. Here's an example use case scenario:
+
+John is an investor who closely follows the stock market and wants to monitor the stock price of Tesla Inc. He wants to receive news alerts on his phone whenever the stock price of Tesla increases or decreases significantly. Instead of manually checking the stock price and news articles, John decides to automate this process using the Stock News Alert script.
+
+By configuring the script with his API keys, phone number, and desired stock symbol (TSLA) and company name (Tesla Inc), John can run the script and receive timely alerts whenever there is a notable change in Tesla's stock price. The script retrieves the closing prices for the past two days and calculates the percentage difference. If the difference exceeds 1%, it fetches the first three news articles related to Tesla from the News API. John receives separate messages with the article titles and descriptions on his phone via Twilio.
+
+With this automated system in place, John can stay informed about Tesla's stock price movements and receive relevant news articles without the need for
+
+ manual monitoring. This enables him to make well-informed investment decisions and take appropriate actions based on the latest information.
 
 ## Customization
 
